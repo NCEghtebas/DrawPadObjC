@@ -40,6 +40,7 @@
 		AD0161B619F2D0FB00F82F4C /* thickness.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0161A019F2D0FB00F82F4C /* thickness.png */; };
 		AD0161B719F2D0FB00F82F4C /* width.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0161A119F2D0FB00F82F4C /* width.png */; };
 		AD0161B819F2D0FB00F82F4C /* Yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0161A219F2D0FB00F82F4C /* Yellow.png */; };
+		AD7844A019FC311900EF4A6E /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD78449F19FC311900EF4A6E /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +93,8 @@
 		AD0161A019F2D0FB00F82F4C /* thickness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thickness.png; sourceTree = "<group>"; };
 		AD0161A119F2D0FB00F82F4C /* width.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = width.png; sourceTree = "<group>"; };
 		AD0161A219F2D0FB00F82F4C /* Yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yellow.png; sourceTree = "<group>"; };
+		AD78449E19FC311900EF4A6E /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		AD78449F19FC311900EF4A6E /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +153,8 @@
 				AD01613E19F2C06000F82F4C /* Images.xcassets */,
 				AD01614019F2C06000F82F4C /* LaunchScreen.xib */,
 				AD01613119F2C06000F82F4C /* Supporting Files */,
+				AD78449E19FC311900EF4A6E /* SettingsViewController.h */,
+				AD78449F19FC311900EF4A6E /* SettingsViewController.m */,
 			);
 			path = DrawPad;
 			sourceTree = "<group>";
@@ -334,6 +339,7 @@
 				AD01613A19F2C06000F82F4C /* ViewController.m in Sources */,
 				AD01613719F2C06000F82F4C /* AppDelegate.m in Sources */,
 				AD01613419F2C06000F82F4C /* main.m in Sources */,
+				AD7844A019FC311900EF4A6E /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
